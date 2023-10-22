@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    background-image: url("image/top500.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    opacity: 0.5s;
+    padding: 25px 25px 10px 0;
+    width: 500px;
+    margin: auto;
+}
+
+header li {
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+}
+
+main {
+    width: 1200px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+#menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu li {
+    width: 50%;
+    text-align: center;
+}
+
+.move_top {
+    text-align: center;
+}
+
+dl {
+    width: 300px;
+    margin: auto;
+}
+
+dt,dd {
+    padding: 5px;
+}
+
+table {
+    width: 550px;
+    margin: auto;
+}
+
+th,td {
+    padding: 10px 0;
+    border-bottom: solid 1px #dcdcdc;
+}
+
+.center {
+    text-align: center;
+}
